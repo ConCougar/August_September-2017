@@ -10,10 +10,12 @@ project template to start from. And give you access to it.
 
 */
 
-/* FIRST COMMENT Block Comment starts and ends with the forwardslash and asterick. */
+/* FIRST COMMENT Block Comment starts and ends with the forwardslash and asterick. */    
 
-// SECOND COMMENT Line Comment starts with double forward slash goes the rest 
+// SECOND COMMENT Line Comment starts with double forward slash goes the rest                      
 //                of the line length
+
+/// THIRD COMMENT is Line Comment with three forward slashes
 
 #include <iostream> //This is the first library we have to talk about
 /*
@@ -40,6 +42,7 @@ noboolalpha - resets the flag to print out 1's and 0's instead of the words "tru
 using namespace std;
 /*
 namespaces allow the global scope to be divided in sub-scopes. 
+std::cout 
 */
 
 void main() { // the function the computer looks for when compiling
@@ -72,9 +75,12 @@ void main() { // the function the computer looks for when compiling
 	cout << noboolalpha << "noboolalpha : " << newLine;
 	cout << "double and double value is same : " << doubeSame << endl;
 
-	system("pause");// Immediately closes without
+	//system("pause");// Immediately closes without DOESN't work on current network
+	cin >> x;
 	/*
 	system("*") in place of the asterick you can use DOS Commands.	
 	*/
+
+
 	return; // return statement on void main is not necessary
 }
