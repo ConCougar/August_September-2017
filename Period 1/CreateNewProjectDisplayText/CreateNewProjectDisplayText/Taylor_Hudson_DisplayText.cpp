@@ -18,6 +18,7 @@ using namespace std;
 void pause() {
 	cout << "Press any key to continue . . .";
 	while(!_kbhit());
+	_getch();
 	cout << "\n";
 }
 
