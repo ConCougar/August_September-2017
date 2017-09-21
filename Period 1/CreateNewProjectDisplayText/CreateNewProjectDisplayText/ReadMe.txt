@@ -1,5 +1,5 @@
 ========================================================================
-	  Variables and Comments : Empty Project Overview
+			  Display Text : Empty Project Overview
 ========================================================================
 
 This project is built and created specifically to give students a first
