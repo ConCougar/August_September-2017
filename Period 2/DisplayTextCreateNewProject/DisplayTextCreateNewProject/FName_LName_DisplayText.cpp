@@ -18,7 +18,7 @@ using namespace std; //*
 void pause() {
 	cout << "Press any key to continue . . .";
 	while (!_kbhit());
-	int t = _getch();
+	_getch();
 	cout << '\n';	
 }
 
@@ -28,7 +28,6 @@ void main() { // *
 	// Display Text
 	cout << 'H' << 'e' << text_l << text_l << 'o' << " World!" << endl;
 	pause(); // pauses to see the displayed text
-	cout << "example";
 	// return statment closes the console and ends the program
 	return;
 }
