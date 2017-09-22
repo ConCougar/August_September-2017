@@ -31,6 +31,6 @@ void main() {
 	// Display Text "Hello World"
 	cout << "He" << noel << noel << "o Wor" << noel << "d!" << endl;
 	cout << H << e << l << l << o << " " << W << o << r << l << d << "!"<< endl;
-	//pause();// pause() so we can see the text
+	pause();// pause() so we can see the text
 	return; // ends program
 }
