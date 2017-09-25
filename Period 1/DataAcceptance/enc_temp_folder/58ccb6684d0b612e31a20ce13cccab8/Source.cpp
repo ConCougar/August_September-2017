@@ -58,9 +58,9 @@ void main() {
 	cin >> calc_1;
 	cout << "Enter a number another number : ";
 	cin >> calc_2;
-	cout << calc_1 << " + " << calc_2 << " = "  << calc_1 + calc_2 << endl;
+	cout << calc_1 << " + " << calc_2 << calc_1 + calc_2 << endl;
 	calc_3 = calc_1 * calc_2;
-	cout << calc_1 << " * " << calc_2 << " = " << calc_3 << endl;
+	cout << calc_1 << " * " << calc_2 << calc_3 << endl;
 	// Pause
 	pause();
 }
